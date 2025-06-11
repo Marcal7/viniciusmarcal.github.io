@@ -1,33 +1,60 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="pt-BR">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link rel="stylesheet" href="css/style.css">
-  <meta name="description" content="">
+  <title>Portfólio | Vinícius Marçal</title>
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-  <meta property="og:image:alt" content="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <meta name="description" content="Portfólio de Vinícius Marçal, estudante de Informática Biomédica na USP-RP.">
+  <meta property="og:title" content="Portfólio | Vinícius Marçal">
+  <meta property="og:description" content="Conheça meus projetos, habilidades e hobbies.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content=""> <meta property="og:image" content="img/fotopessoal.jpg"> <meta property="og:image:alt" content="Foto de Vinícius Marçal">
 
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" href="/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icon.png">
 
   <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
+  <meta name="theme-color" content="#1DD1A1">
 </head>
 
 <body>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/app.js"></script>
+  <main class="card">
+    <header class="profile">
+      <img src="img/fotopessoal.jpg" alt="Foto de Vinícius Marçal" class="profile-picture">
+      <h1>Olá! Sou o Vinícius Marçal 🏙️</h1>
+      <p class="subtitle">Estudante de Informática Biomédica (USP - RP)</p>
+    </header>
 
+    <section class="about">
+      <h2>Sobre Mim & Hobbies</h2>
+      <p>Tenho 20 anos e sou apaixonado por tecnologia e pela área da saúde. No meu tempo livre, gosto de me dedicar a atividades que me desafiam e divertem.</p>
+      <ul class="hobbies-list">
+        <li><span>🏀</span> Basquete</li>
+        <li><span>📊</span> Análise de Dados</li>
+        <li><span>👨‍🍳</span> Cozinhar</li>
+      </ul>
+    </section>
+
+    <section class="rave-section">
+      <button onClick="mudarCor()">MODO RAVE!</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito por Vinícius Marçal.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
 </body>
 
 </html>
